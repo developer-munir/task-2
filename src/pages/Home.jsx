@@ -1,11 +1,13 @@
 import React from "react";
 import progress from "../assets/svg with paths.svg";
+import PageOne from "../components/PageOne";
+import PageTwo from "../components/PageTwo";
 import "./home.css";
 const Home = () => {
   return (
     <div>
       <div className="grid grid-cols-2 ">
-        <div className="border h-screen bg-slate-500">
+        <div className=" h-screen bg-slate-500">
           <div>
             <span className="relative left-[400px] top-[180px] z-10">
               <h3 className="text-2xl">Redefining</h3>
@@ -31,7 +33,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="border">content</div>
+        <div className=" h-screen">
+          {/* <PageOne></PageOne> */}
+
+          <PageTwo></PageTwo>
+        </div>
       </div>
     </div>
   );

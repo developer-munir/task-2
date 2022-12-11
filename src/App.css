@@ -1,7 +1,16 @@
 .App {
   text-align: center;
 }
-
+.page-1 {
+  background-image: url("../src/assets/interior.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.page-2 {
+  background-color: green;
+  height: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
