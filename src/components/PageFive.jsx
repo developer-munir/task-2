@@ -1,22 +1,22 @@
 import React from "react";
-import img1 from "../assets/veme-app-ui-design.png";
-import img2 from "../assets/veme-blockchain-app-developed.png";
+import img1 from "../assets/karavan-social-networking-app-screen-2.png";
+import img2 from "../assets/karavan-social-networking-app-screen.png";
 
 import progress from "../assets/svg with paths.svg";
-const PageThree = () => {
+const PageFive = () => {
   return (
     <div>
       <div className="grid grid-cols-2 ">
-        <div className=" h-screen page-3-left">
+        <div className=" h-screen page-5-left">
           <div>
-            <span className="relative z-50 left-[400px] top-[180px] ">
+            <span className="relative left-[400px] top-[180px] z-10">
               <h3 className="text-2xl">Redefining</h3>
               <h1 className="text-4xl font-bold">UX Strategy</h1>
               <p className="ml-[100px]">and UI design</p>
             </span>
             <img
               src={progress}
-              className="progress-style z-40 relative ml-[450px] page-3-left rounded-full"
+              className="progress-style relative ml-[450px] page-5-left rounded-full"
               alt=""
             />
           </div>
@@ -34,17 +34,22 @@ const PageThree = () => {
           </div>
         </div>
 
-        <div className="page-3 items-center flex h-screen ">
-          <img src={img1} className="h-[400px] relative left-[50px]" alt="" />
-          <img
-            src={img2}
-            className="h-[400px] relative left-[100px] bottom-[100px]"
-            alt=""
-          />
+        <div className="page-5   h-screen grid grid-cols-3">
+          <div className="mt-4 ml-8">
+            <img src={img1} className="h-[250px]" alt="" />
+            <img src={img2} className="h-[250px] mt-[40px]" alt="" />
+          </div>
+          <div className="mt-4 ml-4">
+            <img src={img1} className="h-[250px] mt-[50px]" alt="" />
+            <img src={img2} className="h-[250px] mt-[60px]" alt="" />
+          </div>
+          <div className="mt-4 ml-4">
+            <img src={img1} className="h-[250px] mt-[120px]" alt="" />
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default PageThree;
+export default PageFive;

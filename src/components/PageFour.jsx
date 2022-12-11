@@ -1,22 +1,22 @@
 import React from "react";
-import img1 from "../assets/veme-app-ui-design.png";
-import img2 from "../assets/veme-blockchain-app-developed.png";
+import img1 from "../assets/melltoo-img1.png";
+import img2 from "../assets/melltoo-img2.png";
 
 import progress from "../assets/svg with paths.svg";
-const PageThree = () => {
+const PageFour = () => {
   return (
     <div>
       <div className="grid grid-cols-2 ">
-        <div className=" h-screen page-3-left">
+        <div className=" h-screen page-4-left">
           <div>
-            <span className="relative z-50 left-[400px] top-[180px] ">
+            <span className="relative left-[400px] top-[180px] z-10">
               <h3 className="text-2xl">Redefining</h3>
               <h1 className="text-4xl font-bold">UX Strategy</h1>
               <p className="ml-[100px]">and UI design</p>
             </span>
             <img
               src={progress}
-              className="progress-style z-40 relative ml-[450px] page-3-left rounded-full"
+              className="progress-style relative ml-[450px] page-4-left rounded-full"
               alt=""
             />
           </div>
@@ -34,17 +34,13 @@ const PageThree = () => {
           </div>
         </div>
 
-        <div className="page-3 items-center flex h-screen ">
-          <img src={img1} className="h-[400px] relative left-[50px]" alt="" />
-          <img
-            src={img2}
-            className="h-[400px] relative left-[100px] bottom-[100px]"
-            alt=""
-          />
+        <div className="page-4 flex  h-screen items-center justify-center">
+          <img src={img1} className="h-[400px]" alt="" />
+          <img src={img2} className="h-[400px]" alt="" />
         </div>
       </div>
     </div>
   );
 };
 
-export default PageThree;
+export default PageFour;
