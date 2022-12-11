@@ -11,9 +11,14 @@
   background-color: green;
   height: 100%;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-2-left {
+  background-color: rgb(94, 112, 94);
+}
+.page-3 {
+  background-color: rgb(31, 31, 158);
+}
+.page-3-left {
+  background-color: rgb(67, 67, 139);
 }
 
 @media (prefers-reduced-motion: no-preference) {
