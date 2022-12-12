@@ -10,7 +10,6 @@ const PageThree = () => {
         <div className=" h-screen page-3-left">
           <div>
             <span className="relative z-50 left-[400px] top-[180px] ">
-              <h3 className="text-2xl">Redefining</h3>
               <h1 className="text-4xl font-bold">UX Strategy</h1>
               <p className="ml-[100px]">and UI design</p>
             </span>

@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/karavan-social-networking-app-screen-2.png";
-import img2 from "../assets/karavan-social-networking-app-screen.png";
-
+import img1 from "../assets/nexgtv-entertainment-mobile-app-development.png";
+import img2 from "../assets/nexgtv-mobile-app-ui-design.png";
+import bestCompany from "../assets/world-communication-awards-for-best-digital-experience.png";
 import progress from "../assets/svg with paths.svg";
 const PageTwo = () => {
   return (
@@ -10,9 +10,8 @@ const PageTwo = () => {
         <div className=" h-screen page-2-left">
           <div>
             <span className="relative left-[400px] top-[180px] z-10">
-              <h3 className="text-2xl">Redefining</h3>
-              <h1 className="text-4xl font-bold">UX Strategy</h1>
-              <p className="ml-[100px]">and UI design</p>
+              <h1 className="text-4xl font-bold">25M+ Downloads</h1>
+              <p className="ml-[50px]">on appstore & google playstore</p>
             </span>
             <img
               src={progress}
@@ -20,14 +19,17 @@ const PageTwo = () => {
               alt=""
             />
           </div>
-          <div className="mt-[50px] p-5">
+          <div className="relative bottom-[100px] p-5">
             <div>
-              <h1 className="font-bold text-4xl">ABC 456</h1>
-              <p>We are the best</p>
-              <p>Web development company</p>
-              <p>in the world</p>
+              <img src={bestCompany} alt="" />
+              <div className="mt-4">
+                <h1 className="font-bold text-4xl">ABC 456</h1>
+                <p>We are the best</p>
+                <p>Web development company</p>
+                <p>in the world</p>
+              </div>
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center mt-12">
               <h1 className="text-xl">View Case Study</h1>
               <p className="uppercase text-2xl">skip</p>
             </div>

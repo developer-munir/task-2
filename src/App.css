@@ -2,10 +2,7 @@
   text-align: center;
 }
 .page-1 {
-  background-image: url("../src/assets/interior.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+  background-color: rgb(16, 16, 43);
 }
 .page-2 {
   background-color: rgb(97, 136, 97);
@@ -32,7 +29,18 @@
 .page-5-left {
   background-color: rgb(71, 65, 7);
 }
-
+.page-6 {
+  background-image: url("../src/assets/interior.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.page-7 {
+  background-color: rgb(41, 41, 110);
+}
+.page-7-left {
+  background-color: rgb(14, 14, 39);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

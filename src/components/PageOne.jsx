@@ -1,12 +1,15 @@
 import React from "react";
-import page1 from "../assets/erp-app-development-service.png";
-
+import imgone from "../assets/domi-img1.png";
+import imgTwo from "../assets/ux-strategy-for-mobile-app-devlopment.png";
+import pizza from "../assets/pizza_box.png";
 import progress from "../assets/svg with paths.svg";
-const PageOne = () => {
+import coconutOne from "../assets/dominos-bread1.png";
+import coconutTwo from "../assets/dominos-bread.png";
+const PageOne = ({ imgRef }) => {
   return (
     <div>
       <div className="grid grid-cols-2 ">
-        <div className=" h-screen bg-slate-500">
+        <div className=" h-screen bg-blue-900">
           <div>
             <span className="relative left-[400px] top-[180px] z-10">
               <h3 className="text-2xl">Redefining</h3>
@@ -15,7 +18,7 @@ const PageOne = () => {
             </span>
             <img
               src={progress}
-              className="progress-style relative ml-[450px] bg-slate-500 rounded-full"
+              className="progress-style relative ml-[450px] bg-blue-900 rounded-full "
               alt=""
             />
           </div>
@@ -33,8 +36,22 @@ const PageOne = () => {
           </div>
         </div>
 
-        <div className="page-1 h-screen">
-          <img src={page1} alt="" />
+        <div className="grid grid-cols-3 h-screen page-1">
+          <div>
+            <img src={pizza} alt="" />
+            <img src={imgone} className="ml-[50px]  mt-[150px]" alt="" />
+          </div>
+          <div>
+            <img
+              src={imgTwo}
+              className="h-[300px] relative ml-[50px] mt-[100px]"
+              alt=""
+            />
+          </div>
+          <div>
+            <img src={coconutTwo} className="relative bottom-[100px]" alt="" />
+            <img src={coconutOne} className="relative top-[200px]" alt="" />
+          </div>
         </div>
       </div>
     </div>

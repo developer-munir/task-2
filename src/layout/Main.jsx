@@ -7,11 +7,11 @@ import Navbar from "../pages/Navbar";
 const Main = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <div>
         <Outlet></Outlet>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 };
